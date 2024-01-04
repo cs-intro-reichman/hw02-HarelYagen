@@ -62,6 +62,5 @@ public class OneOfEachStats1 {
             System.out.println("The most common number of children is 4 or more.");
 
        }
-  }
 }
         
