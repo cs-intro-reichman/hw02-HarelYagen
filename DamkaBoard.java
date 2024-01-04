@@ -5,15 +5,16 @@ public class DamkaBoard{
 			if(i % 2 == 0){
 				System.out.print(" ");
 			}
-			for(int t = 1; t <= n; t++){
+			for(int t = 1; t < n; t++){
 				System.out.print("* ");
 			}
+			System.out.print("*");
 			System.out.println();
 		}
 	}
 }
 
-		// take imput n + varuble count = 0 
+// take imput n + varuble count = 0 
 
 		// if count <= n  print "* " n times and then prinln + count++
 
