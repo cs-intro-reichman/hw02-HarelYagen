@@ -1,5 +1,5 @@
-public class Reversing{
-	public static void main(String[] args){
+public class Reverse {
+	public static void main (String[] args){
 		String input = args[0];
 	    int length = input.length();
 	    for(int curentplace = length - 1; curentplace >= 0; curentplace--)
@@ -21,7 +21,6 @@ public class Reversing{
 
 	}
 }
-
 		// get an input string 
 
 		// length() funcion gives the lenght of the string so the last char num of the string is n-1
