@@ -4,6 +4,7 @@
  *  The program expects to get one command-line argument: an int value
  * 	that determines how many families to simulate.
  */
+import java.lang.Math;
 public class OneOfEachStats1 {
 	public static void main (String[] args) {
 		//// Put your code here
@@ -61,6 +62,9 @@ public class OneOfEachStats1 {
        else{
             System.out.println("The most common number of children is 4 or more.");
 
+      
        }
+   } 
 }
+
         
