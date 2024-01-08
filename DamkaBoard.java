@@ -1,7 +1,7 @@
 public class DamkaBoard{
 	public static void main(String[] args) {
 		int n = Integer.parseInt(args[0]);
-		for(int i = 1; i <= n; i++){
+		for(int i = 1; i <= n; i++){ // TODO: i and j is not informative. Name it row and col
 			if(i % 2 == 0){
 				System.out.print(" ");
 			}
@@ -9,8 +9,8 @@ public class DamkaBoard{
 				System.out.print("* ");
 			}
 			System.out.print("*");
-			if (i % 2 == 1) System.out.print(" ");
-			System.out.println();
+			if (i % 2 == 1) System.out.print(" "); // TODO: it's not good style to put it in a one line
+			System.out.println(); 
 		}
 	}
 }

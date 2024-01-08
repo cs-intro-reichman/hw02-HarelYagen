@@ -13,6 +13,7 @@ public class OneOfEachStats {
        Random rand = new Random(seed);
 
               for (int i = 1; i <= T; i++){
+                // TODO: identations! 
               int children = 0;
               double boy = 0.0; 
               double girl = 1.0;
