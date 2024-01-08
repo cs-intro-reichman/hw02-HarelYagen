@@ -1,6 +1,6 @@
 public class Divisors {
 	public static void main(String[] args) {
-		int runtime = Integer.parseInt(args[0]);
+		int runtime = Integer.parseInt(args[0]); // TODO: I don't think that "runtime" is a good name
 		for (int i = 1; i <= runtime; i++) {
 		if ((runtime % i) == 0)
 				{
